@@ -8,27 +8,27 @@
 
 # Project status 
 
-## Phase 1
-
 ## Phase 1 - Core Cloud Platform
 
-| Area | What I Am Building | Tools / Services | Purpose | Completion Evidence | Completed/ Progression/ On-Hold | Expected Completed date |  
+## Phase 1 - Core Cloud Platform Progress Tracker
+
+| Area | What I Am Building | Tools / Services | Purpose | Completion Evidence | Status | Expected Completion Date |
 |---|---|---|---|---|---|---|
-| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | Will be writing here soon | Will be writing here soon | Progression | 25/05/2026 | 
-| Containerisation | Docker image for the application | Docker, Dockerfile | | | On-Hold | |
-| Source Control | GitHub repository with clean project structure | | | | On-Hold | |
-| CI Pipeline | Automated test and build workflow |||| On-Hold ||
-| AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | | | On-Hold | |
-| Container Registry | Store application Docker images | Amazon ECR | | | On-Hold | |
-| Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | | | On-Hold | |
-| Load Balancing | Public entry point for the application | Application Load Balancer, Target Group | | | On-Hold | |
-| Compute Platform | Run the containerised app | ECS Fargate | | | On-Hold | |
-| IAM | Required permissions for ECS and deployments | IAM roles, IAM policies | | | On-Hold | |
-| Logging | Capture application logs | CloudWatch Logs | | | On-Hold | |
-| Terraform | Provision AWS infrastructure as code | Terraform modules and environment folders |  | | On-Hold | |
-| Deployment | Deploy app image to AWS | | | | On-Hold | |
-| Health Checks | Verify app availability | ALB health checks, `/health` endpoint |  |  | On-Hold | |
-| Documentation | Explain how the platform works | README, architecture docs, screenshots | Makes the project understandable to recruiters and engineers | | On-Hold | |
+| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | Provides a real application to deploy, test, monitor, and later use for failure scenarios | App runs locally and endpoints return expected responses | In Progress | 25/05/2026 |
+| Containerisation | Docker image for the application | Docker, Dockerfile | Packages the application so it can run consistently locally and in AWS | Docker image builds successfully and runs locally | On Hold | TBD |
+| Source Control | GitHub repository with clean project structure | GitHub | Stores application code, Terraform, CI/CD workflows, and documentation in one structured repo | Repo contains `app/`, `terraform/`, `.github/workflows/`, and `docs/` folders | On Hold | TBD |
+| CI Pipeline | Automated test and build workflow | GitHub Actions | Validates application code before deployment | GitHub Actions workflow runs successfully on push or pull request | On Hold | TBD |
+| AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | Allows GitHub Actions to deploy to AWS without long-lived access keys | GitHub Actions successfully assumes AWS IAM role | On Hold | TBD |
+| Container Registry | Store application Docker images | Amazon ECR | Stores versioned Docker images for ECS deployment | Docker image is pushed to ECR with a Git SHA tag | On Hold | TBD |
+| Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | Provides secure network isolation for the application platform | VPC, subnets, route tables, and internet gateway created through Terraform | On Hold | TBD |
+| Load Balancing | Public entry point for the application | Application Load Balancer, Target Group | Routes public traffic to healthy application containers | ALB DNS loads the application and target group shows healthy targets | On Hold | TBD |
+| Compute Platform | Run the containerised app | ECS Fargate | Runs the application without managing EC2 servers | ECS service is running with the desired task count | On Hold | TBD |
+| IAM | Required permissions for ECS and deployments | IAM roles, IAM policies | Provides secure permissions for ECS tasks, deployments, and GitHub Actions | IAM roles and policies are created with scoped permissions | On Hold | TBD |
+| Logging | Capture application logs | CloudWatch Logs | Provides basic visibility into application behaviour and requests | Application logs appear in the CloudWatch log group | On Hold | TBD |
+| Terraform | Provision AWS infrastructure as code | Terraform modules and environment folders | Makes the AWS infrastructure repeatable, version-controlled, and reusable | `terraform plan` and `terraform apply` complete successfully | On Hold | TBD |
+| Deployment | Deploy app image to AWS | GitHub Actions, ECR, ECS Fargate | Automates delivery of the application into AWS | New image version is deployed to ECS successfully | On Hold | TBD |
+| Health Checks | Verify app availability | ALB health checks, `/health` endpoint | Confirms the application is running correctly after deployment | `/health` endpoint returns healthy and ALB target group is healthy | On Hold | TBD |
+| Documentation | Explain how the platform works | README, architecture docs, screenshots | Makes the project understandable to recruiters, engineers, and future maintainers | README includes architecture, build steps, screenshots, and deployment evidence | On Hold | TBD |
 
 ## Phase 2
 
