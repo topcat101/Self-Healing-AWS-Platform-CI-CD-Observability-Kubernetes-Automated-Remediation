@@ -18,8 +18,8 @@
 | Containerisation | Docker image for the application | Docker, Dockerfile | | | On-Hold | |
 | Source Control | GitHub repository with clean project structure | | | | On-Hold | |
 | CI Pipeline | Automated test and build workflow |||| On-Hold ||
-| AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | | | On-Hold | |
-| Container Registry | Store application Docker images | Amazon ECR | Holds versioned images for deployment to ECS | | | On-Hold | |
+| AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | | | | On-Hold | |
+| Container Registry | Store application Docker images | Amazon ECR | | | On-Hold | |
 | Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | | | On-Hold | |
 | Load Balancing | Public entry point for the application | Application Load Balancer, Target Group | | | On-Hold | |
 | Compute Platform | Run the containerised app | ECS Fargate | | | On-Hold | |
@@ -28,7 +28,7 @@
 | Terraform | Provision AWS infrastructure as code | Terraform modules and environment folders |  | | On-Hold | |
 | Deployment | Deploy app image to AWS | | | | On-Hold | |
 | Health Checks | Verify app availability | ALB health checks, `/health` endpoint |  |  | On-Hold | |
-| Documentation | Explain how the platform works | README, architecture docs, screenshots | Makes the project understandable to recruiters and engineers | | On-Hold | |
+| Documentation | Explain how the platform works | README, architecture docs, screenshots | Makes the project understandable to recruiters and engineers | | | On-Hold | |
 
 ## Phase 2
 
