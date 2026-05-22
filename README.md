@@ -1,1 +1,1 @@
-# Self-Healing-AWS-Platform-CI-CD-Observability-Kubernetes-Automated-Remediation
+# Self Healing AWS Platform CI/CD Observability Kubernetes Automated Remediation
