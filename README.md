@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | Will be writing here soon | Will be writing here soon | Progression | 25/05/2026 | 
 | Containerisation | Docker image for the application | Docker, Dockerfile | | | On-Hold | |
-| Source Control | GitHub repository with clean project structure ||| On-Hold ||
+| Source Control | GitHub repository with clean project structure | | | | On-Hold | |
 | CI Pipeline | Automated test and build workflow |||| On-Hold ||
 | AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | | | On-Hold | |
 | Container Registry | Store application Docker images | Amazon ECR | Holds versioned images for deployment to ECS | | | On-Hold | |
