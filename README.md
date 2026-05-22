@@ -15,20 +15,20 @@
 | Area | What I Am Building | Tools / Services | Purpose | Completion Evidence | Completed/ Progression/ On-Hold | Expected Conpleted date |  
 |---|---|---|---|---|---|---|
 | Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | test | test | Progression | 25/05/2026 | 
-| Containerisation | Docker image for the application | Docker, Dockerfile | Packages the app consistently for local and AWS deployment | Docker image builds successfully and runs locally |
-| Source Control | GitHub repository with clean project structure | GitHub | Stores app code, Terraform, workflows, and documentation | Repo contains `app/`, `terraform/`, `.github/workflows/`, and `docs/` |
-| CI Pipeline | Automated test and build workflow | GitHub Actions | Validates app code before deployment | Workflow passes on push or pull request |
-| AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | Avoids long-lived AWS access keys in GitHub secrets | GitHub Actions successfully assumes AWS role |
-| Container Registry | Store application Docker images | Amazon ECR | Holds versioned images for deployment to ECS | Image pushed to ECR with Git SHA tag |
-| Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | Creates isolated networking for the platform | VPC and subnets created successfully with Terraform |
-| Load Balancing | Public entry point for the application | Application Load Balancer, Target Group | Routes user traffic to healthy ECS tasks | ALB DNS loads the application successfully |
-| Compute Platform | Run the containerised app | ECS Fargate | Hosts the app without managing EC2 servers | ECS service is running desired task count |
-| IAM | Required permissions for ECS and deployments | IAM roles, IAM policies | Allows ECS tasks and GitHub Actions to operate securely | IAM roles created with scoped permissions |
-| Logging | Capture application logs | CloudWatch Logs | Provides basic operational visibility | App logs appear in CloudWatch log group |
-| Terraform | Provision AWS infrastructure as code | Terraform modules and environment folders | Makes infrastructure repeatable and version controlled | `terraform plan` and `terraform apply` complete successfully |
-| Deployment | Deploy app image to AWS | GitHub Actions, ECR, ECS Fargate | Automates app delivery into AWS | New image version deployed to ECS |
-| Health Checks | Verify app availability | ALB health checks, `/health` endpoint | Confirms the service is running correctly | ALB target group shows healthy targets |
-| Documentation | Explain how the platform works | README, architecture docs, screenshots | Makes the project understandable to recruiters and engineers | README includes architecture, build steps, and proof screenshots |
+| Containerisation | Docker image for the application | Docker, Dockerfile | | | | |
+| Source Control | GitHub repository with clean project structure |||||
+| CI Pipeline | Automated test and build workflow ||||||
+| AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | | | | |
+| Container Registry | Store application Docker images | Amazon ECR | Holds versioned images for deployment to ECS | | | |
+| Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | | | | |
+| Load Balancing | Public entry point for the application | Application Load Balancer, Target Group | | | | |
+| Compute Platform | Run the containerised app | ECS Fargate | | | | |
+| IAM | Required permissions for ECS and deployments | IAM roles, IAM policies | | | | |
+| Logging | Capture application logs | CloudWatch Logs | | | | |
+| Terraform | Provision AWS infrastructure as code | Terraform modules and environment folders |  | | | |
+| Deployment | Deploy app image to AWS | | | | | |
+| Health Checks | Verify app availability | ALB health checks, `/health` endpoint |  |  | | |
+| Documentation | Explain how the platform works | README, architecture docs, screenshots | Makes the project understandable to recruiters and engineers | | | |
 
 ## Phase 2
 
