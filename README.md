@@ -1,7 +1,12 @@
 # Self Healing AWS Platform CI/CD Observability Kubernetes Automated Remediation (WIP)
 
 
-## Project documentation is highly likely to be changed within the future, just as future improvements are made within the project overall.
+# What it is
+# Architecture diagram
+# How to run it
+# Project status (Phase 1 complete, Phase 2 in progress...)
+
+# Project documentation is highly likely to grow with the project overall. So the below are just notes at this stage, till I have figured out the next parts I will be amending to my project.
 
 ## 1. Project Overview
 ### 1.1 Problem Statement
