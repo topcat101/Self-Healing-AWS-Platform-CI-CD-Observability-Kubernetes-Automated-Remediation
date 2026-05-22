@@ -12,9 +12,9 @@
 
 ## Phase 1 - Core Cloud Platform
 
-| Area | What I Am Building | Tools / Services | Purpose | Completion Evidence |
+| Area | What I Am Building | Tools / Services | Purpose | Completion Evidence | Completed/ Progression/ On-Hold | Expected Conpleted date |  
 |---|---|---|---|---|
-| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Node.js / Python Flask / Django, Docker | Provides a real app to deploy, monitor, and test | App runs locally and returns healthy response |
+| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | -- | -- | Progression | 25/05/2026 | 
 | Containerisation | Docker image for the application | Docker, Dockerfile | Packages the app consistently for local and AWS deployment | Docker image builds successfully and runs locally |
 | Source Control | GitHub repository with clean project structure | GitHub | Stores app code, Terraform, workflows, and documentation | Repo contains `app/`, `terraform/`, `.github/workflows/`, and `docs/` |
 | CI Pipeline | Automated test and build workflow | GitHub Actions | Validates app code before deployment | Workflow passes on push or pull request |
