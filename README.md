@@ -19,7 +19,7 @@
 | Source Control | GitHub repository with clean project structure ||| On-Hold ||
 | CI Pipeline | Automated test and build workflow |||| On-Hold ||
 | AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | | | On-Hold | |
-| Container Registry | Store application Docker images | Amazon ECR | Holds versioned images for deployment to ECS | | On-Hold | |
+| Container Registry | Store application Docker images | Amazon ECR | Holds versioned images for deployment to ECS | | | On-Hold | |
 | Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | | | On-Hold | |
 | Load Balancing | Public entry point for the application | Application Load Balancer, Target Group | | | On-Hold | |
 | Compute Platform | Run the containerised app | ECS Fargate | | | On-Hold | |
