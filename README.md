@@ -12,10 +12,10 @@
 
 | Area | What I Am Building | Tools / Services | Purpose | Completion Evidence | Status | Expected Completion Date |
 |---|---|---|---|---|---|---|
-| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | | In Progress | 25/05/2026 |
-| Containerisation | Docker image for the application | Docker, Dockerfile | Packages the application so it can run consistently locally and in AWS | | On Hold | TBD |
-| Source Control | GitHub repository with clean project structure | GitHub | Stores application code, Terraform, CI/CD workflows, and documentation in one structured repo | | On Hold | TBD |
-| CI Pipeline | Automated test and build workflow | GitHub Actions | Validates application code before deployment | | On Hold | TBD |
+| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | Provides a real application to deploy, test, monitor, and later use for failure scenarios | Completed | 25/05/2026 |
+| Containerisation | Docker image for the application | Docker, Dockerfile | Packages the application so it can run consistently locally and in AWS | | In Progress | TBD |
+| Source Control | GitHub repository with clean project structure | GitHub | Stores application code, Terraform, CI/CD workflows, and documentation in one structured repo | | In Progress | TBD |
+| CI Pipeline | Automated test and build workflow | GitHub Actions | Validates application code before deployment | | In Progress | TBD |
 | AWS Authentication | Secure GitHub Actions access to AWS | GitHub Actions OIDC, AWS IAM Role | Allows GitHub Actions to deploy to AWS without long-lived access keys | | On Hold | TBD |
 | Container Registry | Store application Docker images | Amazon ECR | Stores versioned Docker images for ECS deployment | | On Hold | TBD |
 | Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | Provides secure network isolation for the application platform | | On Hold | TBD |
