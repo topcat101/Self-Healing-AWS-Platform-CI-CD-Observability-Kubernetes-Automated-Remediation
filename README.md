@@ -20,7 +20,7 @@
 | Container Registry | Store application Docker images | Amazon ECR | Stores versioned Docker images for ECS deployment | | On Hold | TBD |
 | Networking | Production-style AWS network foundation | VPC, public subnets, private subnets, route tables, Internet Gateway | Provides secure network isolation for the application platform | | On Hold | TBD |
 | Load Balancing | Public entry point for the application | Application Load Balancer, Target Group | Routes public traffic to healthy application containers | | On Hold | TBD |
-| Compute Platform | Run the containerised app | ECS Fargate | | On Hold | TBD |
+| Compute Platform | Run the containerised app | ECS Fargate | Runs the application without managing EC2 servers | | On Hold | TBD |
 | IAM | Required permissions for ECS and deployments | IAM roles, IAM policies | Provides secure permissions for ECS tasks, deployments, and GitHub Actions | | On Hold | TBD |
 | Logging | Capture application logs | CloudWatch Logs | Provides basic visibility into application behaviour and requests | | On Hold | TBD |
 | Terraform | Provision AWS infrastructure as code | Terraform modules and environment folders | Makes the AWS infrastructure repeatable, version-controlled, and reusable | | On Hold | TBD |
