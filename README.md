@@ -12,7 +12,7 @@
 
 | Area | What I Am Building | Tools / Services | Purpose | Completion Evidence | Status | Expected Completion Date |
 |---|---|---|---|---|---|---|
-| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | Provides a real application to deploy, test, monitor, and later use for failure scenarios || Completed | 25/05/2026 |
+| Application | Simple containerised web/API application with `/`, `/health`, and `/version` endpoints | Django, Docker | Provides a real application to deploy, test, monitor, and later use for failure scenarios | Apps runs locally as expected, easily accessible via the loopback address and endpoint work as intended  /. health, and version | Completed | 25/05/2026 |
 | Containerisation | Docker image for the application | Docker, Dockerfile | Packages the application so it can run consistently locally and in AWS | | In Progress | TBD |
 | Source Control | GitHub repository with clean project structure | GitHub | Stores application code, Terraform, CI/CD workflows, and documentation in one structured repo | | In Progress | TBD |
 | CI Pipeline | Automated test and build workflow | GitHub Actions | Validates application code before deployment | | In Progress | TBD |
